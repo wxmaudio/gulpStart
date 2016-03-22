@@ -1,0 +1,36 @@
+{
+  "name": "first-gulp-demo",
+  "version": "0.0.0",
+  "description": "my  first gulp demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp -ws",
+    "test": "gulp release"
+  },
+  "author": "wuxm",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "gulp": "~3.9.1",
+    "jshint": "~2.9.1-rc2",
+    "gulp-jshint": "~2.0.0",
+    "gulp-concat": "~2.6.0",
+    "gulp-uglify": "~1.5.1",
+    "gulp-rename": "~1.2.2",
+    "gulp-imagemin": "~2.4.0",
+    "htmlmin": "0.0.4",
+    "gulp-livereload": "~3.8.1",
+    "gulp-minify-css": "~1.2.3",
+    "gulp-clean": "~0.3.1",
+    "gulp-ruby-sass": "~2.0.6",
+    "gulp-less": "~3.0.5",
+    "gulp-rev-collector": "~1.0.2",
+    "gulp-rev": "~7.0.0",
+    "gulp-if": "~2.0.0",
+    "gulp-autoprefixer": "~3.1.0",
+    "gulp-inline-source": "~2.1.0",
+    "yargs": "~4.2.0",
+    "browser-sync": "~2.11.1",
+    "gulp-order": "~1.1.1",
+    "gulp-sourcemaps": "~1.6.0"
+  }
+}
